@@ -7,16 +7,19 @@ h1 {
     text-align: center;
 }
 
-.projects { 
-    display:flex; 
-    flex-wrap:wrap; 
-} 
-.project {
-width: 30%;
-margin: 10px;
-padding: 20px 10px;
-background: white; /* pick a color */
-border-radius: 25%;
+.project{
+    width: 30%;
+    margin: 10px; 
+    padding: 20px 10px;
+    background:#a4abf8;
+    border-radius: 25%;
+}
+project img{ 
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(33, 132, 231);
+    display: block; margin: auto;
 }
 
 h2 {
@@ -31,22 +34,4 @@ h3 {
     display:flex;
      flex-wrap:wrap;
     }
-    .project{
-        width: 30%;
-        margin: 10px; 
-        padding: 20px 10px;
-        background:#a4abf8;
-        border-radius: 25%;
-    }
-    project img{ 
-        width: 300px;
-        height: 300px;
-        margin: 10px;
-        border: 2px solid rgb(126, 14, 201);
-        display: block; margin: auto;
-    }
-
-    .projects { 
-        display:flex; 
-        flex-wrap:wrap; 
-    } 
+    
