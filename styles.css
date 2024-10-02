@@ -3,27 +3,23 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 h1 {
-    color: cadetblue;
     text-align: center;
+    color: cadetblue;
 }
 
-.project{
+.projects {
+    display:flex;
+    flex-wrap:wrap;
+}
+.project { 
     width: 30%;
-    margin: 10px; 
+    margin: 10px;
     padding: 20px 10px;
-    background:#276df1;
+    background: rgb(12, 128, 252);
     border-radius: 25%;
 }
-project img{ 
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 2px solid rgb(33, 132, 231);
-    display: block; margin: auto;
-}
-
 h2 {
-    color:greenyellow;
+    color:rgb(4, 143, 243);
     text-align: center;
 }
 h3 {
@@ -34,4 +30,3 @@ h3 {
     display:flex;
      flex-wrap:wrap;
     }
-    
