@@ -7,6 +7,34 @@ h1 {
     color: cadetblue;
 }
 
+
+
+
+h2 {
+    color:pink;
+    text-align: left;
+}
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    }
+    .about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+    }
+    .about img {
+    width: 220px;
+    height: 230px;
+    border-radius: 25%;
+    border: 2px solid rgb(255, 255, 255);
+    }
+
+
 .projects {
     display:flex;
     flex-wrap:wrap;
