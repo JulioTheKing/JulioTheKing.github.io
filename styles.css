@@ -1,43 +1,64 @@
-body{
+/* General Body Style */
+body {
     background: darkgreen;
     font-family: 'Courier New', Courier, monospace;
 }
+
+/* Main Heading */
 h1 {
     text-align: center;
     color: cadetblue;
 }
 
-
-
-
+/* Subheadings */
 h2 {
-    color:pink;
-    text-align: left;
+    color: rgb(10, 143, 239);
+    text-align: center;
 }
-.about{
-    display:flex;
-    flex-wrap:wrap;
-    margin-right: 100px;
-    margin-left: 100px;
+
+/* Project Titles */
+h3 {
+    text-align: center;
+    font-style: italic;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 100px;
     justify-content: center;
-    }
-    .about p {
-    width:50%;
+}
+.about p {
+    width: 50%;
     text-align: center;
     margin: auto;
     line-height: 125%;
-    }
-    .about img {
+}
+.about img {
     width: 220px;
     height: 230px;
     border-radius: 25%;
-    border: 2px solid rgb(255, 255, 255);
-    }
+    border: 2px solid white;
+}
 
+/* Skills Section */
+.skills {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+.skills p {
+    margin: 0;
+}
 
+/* Projects Section */
 .projects {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .project { 
     width: 30%;
@@ -46,25 +67,10 @@ h2 {
     background: rgb(12, 128, 252);
     border-radius: 25%;
 }
-
-.project img{
+.project img {
     width: 300px;
     height: 300px;
-    margin: 10px;
-    border: 2px solid rgb(12, 175, 230); /* choose a color */
+    border: 2px solid rgb(12, 175, 230);
     display: block;
-    margin: auto;
-    }
-
-h2 {
-    color:rgb(10, 143, 239);
-    text-align: center;
+    margin: 10px auto;
 }
-h3 {
-    text-align: center;
-     font-style: italic;
-    }
-    projects{
-    display:flex;
-     flex-wrap:wrap;
-    }
